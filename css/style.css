@@ -1,0 +1,30 @@
+html {
+  font-family: 'helvetica neue' , helvetica , arial , sans-serif;
+}
+
+
+
+body {
+  width: 800px ;
+	color: #34495e;
+	font-family: "Playfair Display", serif;
+	font-size: 1em;
+	line-height: 1.8;
+	margin: 0 auto;	
+}
+
+h2{
+  font-size: 1.5em;
+  background-color : violet;
+  margin : 30px;
+  padding : 30px;
+  color: blue;
+  text-align: center;
+}
+  
+
+ul li{
+  list-style: none;
+  
+}
+

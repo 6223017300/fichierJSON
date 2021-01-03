@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test JSON</title>
+        <link rel="stylesheet" href="css/normalize.min.css">
+         
+        <link rel="stylesheet" href="css/style.css"/>
+         
+    </head>
+    <body>
+         
+      
+        
+        <h2>Le fichier JSON </h2>
+        
+        <ul>
+            <?php $parsed_json = json_decode($json) ?>
+            <?php foreach ($parsed_json as $key => $jsons): ?>
+            <?php foreach($jsons as $key => $value): ?>
+            
+            <li> <?= $key ?> : <?= $value .'<br>' ?></li>
+            
+                
+            
+            <?php endforeach ; ?>
+            <?php endforeach ; ?>
+        </ul>
+    </body>
+</html>
